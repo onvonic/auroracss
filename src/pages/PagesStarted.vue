@@ -72,7 +72,7 @@
 
 <style scoped>
     .onv-page-content {
-        padding: 2rem;
+        padding: 0;
         max-width: 1200px;
         margin: 0 auto;
     }

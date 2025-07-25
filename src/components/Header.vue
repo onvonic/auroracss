@@ -1,9 +1,9 @@
 <template>
     <header class="onv-header">
         <div class="onv-logo">
-            <img src="/src/assets/img/logo.png" alt="OnvStyle Logo">
-            OnvStyle
-            <span style="margin-left: 8px; color: #6b7280;">Docs</span>
+            <img src="/src/assets/img/logo.png" alt="Aurora CSS Logo">
+            AURORA
+            <span style="margin-left: 2px; color: #6b7280;">CSS</span>
         </div>
         <div class="onv-search-container">
             <div class="onv-search-icon">
