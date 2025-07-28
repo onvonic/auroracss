@@ -1,0 +1,3 @@
+[submodule "src/assets/aurora-ui"]
+	path = src/assets/aurora-ui
+	url = https://github.com/onvonic/aurora-ui.git
