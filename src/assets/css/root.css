@@ -1,0 +1,381 @@
+/* === MASTER COLOR PALETTE === */
+:root {
+    /* Red Colors */
+    --onv-color-red-50: #fef2f2;
+    --onv-color-red-100: #fee2e2;
+    --onv-color-red-200: #fecaca;
+    --onv-color-red-300: #fca5a5;
+    --onv-color-red-400: #f87171;
+    --onv-color-red-500: #ef4444;
+    --onv-color-red-600: #dc2626;
+    --onv-color-red-700: #b91c1c;
+    --onv-color-red-800: #991b1b;
+    --onv-color-red-900: #7f1d1d;
+    --onv-color-red-950: oklch(.258 .092 26.042);
+
+    /* Orange Colors */
+    --onv-color-orange-50: #fffaf0;
+    --onv-color-orange-100: #feebc8;
+    --onv-color-orange-200: #fbd38d;
+    --onv-color-orange-300: #f6ad55;
+    --onv-color-orange-400: #ed8936;
+    --onv-color-orange-500: #dd6b20;
+    --onv-color-orange-600: #c05621;
+    --onv-color-orange-700: #9c4221;
+    --onv-color-orange-800: #7b341e;
+    --onv-color-orange-900: #652b19;
+    --onv-color-orange-950: oklch(.266 .079 36.259);
+
+    /* Amber Colors */
+    --onv-color-amber-50: oklch(.987 .022 95.277);
+    --onv-color-amber-100: oklch(.962 .059 95.617);
+    --onv-color-amber-200: oklch(.924 .12 95.746);
+    --onv-color-amber-300: oklch(.879 .169 91.605);
+    --onv-color-amber-400: oklch(.828 .189 84.429);
+    --onv-color-amber-500: oklch(.769 .188 70.08);
+    --onv-color-amber-600: oklch(.666 .179 58.318);
+    --onv-color-amber-700: oklch(.555 .163 48.998);
+    --onv-color-amber-800: oklch(.473 .137 46.201);
+    --onv-color-amber-900: oklch(.414 .112 45.904);
+    --onv-color-amber-950: oklch(.279 .077 45.635);
+
+    /* Yellow Colors */
+    --onv-color-yellow-50: #fffbeb;
+    --onv-color-yellow-100: #fef3c7;
+    --onv-color-yellow-200: #fde68a;
+    --onv-color-yellow-300: #fcd34d;
+    --onv-color-yellow-400: #fbbf24;
+    --onv-color-yellow-500: #f59e0b;
+    --onv-color-yellow-600: #d97706;
+    --onv-color-yellow-700: #b45309;
+    --onv-color-yellow-800: #92400e;
+    --onv-color-yellow-900: #78350f;
+    --onv-color-yellow-950: oklch(.286 .066 53.813);
+
+    /* Lime Colors */
+    --onv-color-lime-50: oklch(.986 .031 120.757);
+    --onv-color-lime-100: oklch(.967 .067 122.328);
+    --onv-color-lime-200: oklch(.938 .127 124.321);
+    --onv-color-lime-300: oklch(.897 .196 126.665);
+    --onv-color-lime-400: oklch(.841 .238 128.85);
+    --onv-color-lime-500: oklch(.768 .233 130.85);
+    --onv-color-lime-600: oklch(.648 .2 131.684);
+    --onv-color-lime-700: oklch(.532 .157 131.589);
+    --onv-color-lime-800: oklch(.453 .124 130.933);
+    --onv-color-lime-900: oklch(.405 .101 131.063);
+    --onv-color-lime-950: oklch(.274 .072 132.109);
+
+    /* Green Colors */
+    --onv-color-green-50: #ecfdf5;
+    --onv-color-green-100: #d1fae5;
+    --onv-color-green-200: #a7f3d0;
+    --onv-color-green-300: #6ee7b7;
+    --onv-color-green-400: #34d399;
+    --onv-color-green-500: #10b981;
+    --onv-color-green-600: #059669;
+    --onv-color-green-700: #047857;
+    --onv-color-green-800: #065f46;
+    --onv-color-green-900: #064e3b;
+    --onv-color-green-950: oklch(.266 .065 152.934);
+
+    /* Emerald Colors */
+    --onv-color-emerald-50: oklch(.979 .021 166.113);
+    --onv-color-emerald-100: oklch(.95 .052 163.051);
+    --onv-color-emerald-200: oklch(.905 .093 164.15);
+    --onv-color-emerald-300: oklch(.845 .143 164.978);
+    --onv-color-emerald-400: oklch(.765 .177 163.223);
+    --onv-color-emerald-500: oklch(.696 .17 162.48);
+    --onv-color-emerald-600: oklch(.596 .145 163.225);
+    --onv-color-emerald-700: oklch(.508 .118 165.612);
+    --onv-color-emerald-800: oklch(.432 .095 166.913);
+    --onv-color-emerald-900: oklch(.378 .077 168.94);
+    --onv-color-emerald-950: oklch(.262 .051 172.552);
+
+    /* Teal Colors */
+    --onv-color-teal-50: #f0fdfa;
+    --onv-color-teal-100: #ccfbf1;
+    --onv-color-teal-200: #99f6e4;
+    --onv-color-teal-300: #5eead4;
+    --onv-color-teal-400: #2dd4bf;
+    --onv-color-teal-500: #14b8a6;
+    --onv-color-teal-600: #0d9488;
+    --onv-color-teal-700: #0f766e;
+    --onv-color-teal-800: #115e59;
+    --onv-color-teal-900: #134e4a;
+    --onv-color-teal-950: oklch(.277 .046 192.524);
+
+    /* Cyan Colors */
+    --onv-color-cyan-50: #ecfeff;
+    --onv-color-cyan-100: #cffafe;
+    --onv-color-cyan-200: #a5f3fc;
+    --onv-color-cyan-300: #67e8f9;
+    --onv-color-cyan-400: #22d3ee;
+    --onv-color-cyan-500: #06b6d4;
+    --onv-color-cyan-600: #0891b2;
+    --onv-color-cyan-700: #0e7490;
+    --onv-color-cyan-800: #155e75;
+    --onv-color-cyan-900: #164e63;
+    --onv-color-cyan-950: oklch(.302 .056 229.695);
+
+    /* Sky Colors */
+    --onv-color-sky-50: oklch(.977 .013 236.62);
+    --onv-color-sky-100: oklch(.951 .026 236.824);
+    --onv-color-sky-200: oklch(.901 .058 230.902);
+    --onv-color-sky-300: oklch(.828 .111 230.318);
+    --onv-color-sky-400: oklch(.746 .16 232.661);
+    --onv-color-sky-500: oklch(.685 .169 237.323);
+    --onv-color-sky-600: oklch(.588 .158 241.966);
+    --onv-color-sky-700: oklch(.5 .134 242.749);
+    --onv-color-sky-800: oklch(.443 .11 240.79);
+    --onv-color-sky-900: oklch(.391 .09 240.876);
+    --onv-color-sky-950: oklch(.293 .066 243.157);
+
+    /* Blue Colors */
+    --onv-color-blue-50: #eff6ff;
+    --onv-color-blue-100: #dbeafe;
+    --onv-color-blue-200: #bfdbfe;
+    --onv-color-blue-300: #93c5fd;
+    --onv-color-blue-400: #60a5fa;
+    --onv-color-blue-500: #3b82f6;
+    --onv-color-blue-600: #2563eb;
+    --onv-color-blue-700: #1d4ed8;
+    --onv-color-blue-800: #1e40af;
+    --onv-color-blue-900: #1e3a8a;
+    --onv-color-blue-950: oklch(.282 .091 267.935);
+
+    /* Indigo Colors */
+    --onv-color-indigo-50: #eef2ff;
+    --onv-color-indigo-100: #e0e7ff;
+    --onv-color-indigo-200: #c7d2fe;
+    --onv-color-indigo-300: #a5b4fc;
+    --onv-color-indigo-400: #818cf8;
+    --onv-color-indigo-500: #6366f1;
+    --onv-color-indigo-600: #4f46e5;
+    --onv-color-indigo-700: #4338ca;
+    --onv-color-indigo-800: #3730a3;
+    --onv-color-indigo-900: #312e81;
+    --onv-color-indigo-950: oklch(.257 .09 281.288);
+
+    /* Violet Colors */
+    --onv-color-violet-50: oklch(.969 .016 293.756);
+    --onv-color-violet-100: oklch(.943 .029 294.588);
+    --onv-color-violet-200: oklch(.894 .057 293.283);
+    --onv-color-violet-300: oklch(.811 .111 293.571);
+    --onv-color-violet-400: oklch(.702 .183 293.541);
+    --onv-color-violet-500: oklch(.606 .25 292.717);
+    --onv-color-violet-600: oklch(.541 .281 293.009);
+    --onv-color-violet-700: oklch(.491 .27 292.581);
+    --onv-color-violet-800: oklch(.432 .232 292.759);
+    --onv-color-violet-900: oklch(.38 .189 293.745);
+    --onv-color-violet-950: oklch(.283 .141 291.089);
+
+    /* Purple Colors */
+    --onv-color-purple-50: #f5f3ff;
+    --onv-color-purple-100: #ede9fe;
+    --onv-color-purple-200: #ddd6fe;
+    --onv-color-purple-300: #c4b5fd;
+    --onv-color-purple-400: #a78bfa;
+    --onv-color-purple-500: #8b5cf6;
+    --onv-color-purple-600: #7c3aed;
+    --onv-color-purple-700: #6d28d9;
+    --onv-color-purple-800: #5b21b6;
+    --onv-color-purple-900: #4c1d95;
+    --onv-color-purple-950: oklch(.291 .149 302.717);
+
+    /* Fuchsia Colors */
+    --onv-color-fuchsia-50: oklch(.977 .017 320.058);
+    --onv-color-fuchsia-100: oklch(.952 .037 318.852);
+    --onv-color-fuchsia-200: oklch(.903 .076 319.62);
+    --onv-color-fuchsia-300: oklch(.833 .145 321.434);
+    --onv-color-fuchsia-400: oklch(.74 .238 322.16);
+    --onv-color-fuchsia-500: oklch(.667 .295 322.15);
+    --onv-color-fuchsia-600: oklch(.591 .293 322.896);
+    --onv-color-fuchsia-700: oklch(.518 .253 323.949);
+    --onv-color-fuchsia-800: oklch(.452 .211 324.591);
+    --onv-color-fuchsia-900: oklch(.401 .17 325.612);
+    --onv-color-fuchsia-950: oklch(.293 .136 325.661);
+
+    /* Pink Colors */
+    --onv-color-pink-50: #fdf2f8;
+    --onv-color-pink-100: #fce7f3;
+    --onv-color-pink-200: #fbcfe8;
+    --onv-color-pink-300: #f9a8d4;
+    --onv-color-pink-400: #f472b6;
+    --onv-color-pink-500: #ec4899;
+    --onv-color-pink-600: #db2777;
+    --onv-color-pink-700: #be185d;
+    --onv-color-pink-800: #9d174d;
+    --onv-color-pink-900: #831843;
+    --onv-color-pink-950: oklch(.284 .109 3.907);
+
+    /* Rose Colors */
+    --onv-color-rose-50: oklch(.969 .015 12.422);
+    --onv-color-rose-100: oklch(.941 .03 12.58);
+    --onv-color-rose-200: oklch(.892 .058 10.001);
+    --onv-color-rose-300: oklch(.81 .117 11.638);
+    --onv-color-rose-400: oklch(.712 .194 13.428);
+    --onv-color-rose-500: oklch(.645 .246 16.439);
+    --onv-color-rose-600: oklch(.586 .253 17.585);
+    --onv-color-rose-700: oklch(.514 .222 16.935);
+    --onv-color-rose-800: oklch(.455 .188 13.697);
+    --onv-color-rose-900: oklch(.41 .159 10.272);
+    --onv-color-rose-950: oklch(.271 .105 12.094);
+
+    /* Slate Colors */
+    --onv-color-slate-50: oklch(.984 .003 247.858);
+    --onv-color-slate-100: oklch(.968 .007 247.896);
+    --onv-color-slate-200: oklch(.929 .013 255.508);
+    --onv-color-slate-300: oklch(.869 .022 252.894);
+    --onv-color-slate-400: oklch(.704 .04 256.788);
+    --onv-color-slate-500: oklch(.554 .046 257.417);
+    --onv-color-slate-600: oklch(.446 .043 257.281);
+    --onv-color-slate-700: oklch(.372 .044 257.287);
+    --onv-color-slate-800: oklch(.279 .041 260.031);
+    --onv-color-slate-900: oklch(.208 .042 265.755);
+    --onv-color-slate-950: oklch(.129 .042 264.695);
+
+    /* Gray Colors */
+    --onv-color-gray-50: #f9fafb;
+    --onv-color-gray-100: #f3f4f6;
+    --onv-color-gray-200: #e5e7eb;
+    --onv-color-gray-300: #d1d5db;
+    --onv-color-gray-400: #9ca3af;
+    --onv-color-gray-500: #6b7280;
+    --onv-color-gray-600: #4b5563;
+    --onv-color-gray-700: #374151;
+    --onv-color-gray-800: #1f2937;
+    --onv-color-gray-900: #111827;
+    --onv-color-gray-950: oklch(.13 .028 261.692);
+
+    /* Zinc Colors */
+    --onv-color-zinc-50: oklch(.985 0 0);
+    --onv-color-zinc-100: oklch(.967 .001 286.375);
+    --onv-color-zinc-200: oklch(.92 .004 286.32);
+    --onv-color-zinc-300: oklch(.871 .006 286.286);
+    --onv-color-zinc-400: oklch(.705 .015 286.067);
+    --onv-color-zinc-500: oklch(.552 .016 285.938);
+    --onv-color-zinc-600: oklch(.442 .017 285.786);
+    --onv-color-zinc-700: oklch(.37 .013 285.805);
+    --onv-color-zinc-800: oklch(.274 .006 286.033);
+    --onv-color-zinc-900: oklch(.21 .006 285.885);
+    --onv-color-zinc-950: oklch(.141 .005 285.823);
+
+    /* Neutral Colors */
+    --onv-color-neutral-50: oklch(.985 0 0);
+    --onv-color-neutral-100: oklch(.97 0 0);
+    --onv-color-neutral-200: oklch(.922 0 0);
+    --onv-color-neutral-300: oklch(.87 0 0);
+    --onv-color-neutral-400: oklch(.708 0 0);
+    --onv-color-neutral-500: oklch(.556 0 0);
+    --onv-color-neutral-600: oklch(.439 0 0);
+    --onv-color-neutral-700: oklch(.371 0 0);
+    --onv-color-neutral-800: oklch(.269 0 0);
+    --onv-color-neutral-900: oklch(.205 0 0);
+    --onv-color-neutral-950: oklch(.145 0 0);
+
+    /* Stone Colors */
+    --onv-color-stone-50: oklch(.985 .001 106.423);
+    --onv-color-stone-100: oklch(.97 .001 106.424);
+    --onv-color-stone-200: oklch(.923 .003 48.717);
+    --onv-color-stone-300: oklch(.869 .005 56.366);
+    --onv-color-stone-400: oklch(.709 .01 56.259);
+    --onv-color-stone-500: oklch(.553 .013 58.071);
+    --onv-color-stone-600: oklch(.444 .011 73.639);
+    --onv-color-stone-700: oklch(.374 .01 67.558);
+    --onv-color-stone-800: oklch(.268 .007 34.298);
+    --onv-color-stone-900: oklch(.216 .006 56.043);
+    --onv-color-stone-950: oklch(.147 .004 49.25);
+
+    /* Slate Colors - Cool-toned neutral with blue undertone */
+    --onv-color-slate-50: oklch(.984 .003 247.858);
+    --onv-color-slate-100: oklch(.968 .007 247.896);
+    --onv-color-slate-200: oklch(.929 .013 255.508);
+    --onv-color-slate-300: oklch(.869 .022 252.894);
+    --onv-color-slate-400: oklch(.704 .04 256.788);
+    --onv-color-slate-500: oklch(.554 .046 257.417);
+    --onv-color-slate-600: oklch(.446 .043 257.281);
+    --onv-color-slate-700: oklch(.372 .044 257.287);
+    --onv-color-slate-800: oklch(.279 .041 260.031);
+    --onv-color-slate-900: oklch(.208 .042 265.755);
+    --onv-color-slate-950: oklch(.129 .042 264.695);
+
+    /* Cool Gray Colors - Crisp neutral with subtle blue undertone */
+    --onv-color-cool-gray-50: oklch(.984 .005 240.000);
+    --onv-color-cool-gray-100: oklch(.968 .008 240.000);
+    --onv-color-cool-gray-200: oklch(.928 .015 240.000);
+    --onv-color-cool-gray-300: oklch(.865 .025 240.000);
+    --onv-color-cool-gray-400: oklch(.705 .045 240.000);
+    --onv-color-cool-gray-500: oklch(.555 .050 240.000);
+    --onv-color-cool-gray-600: oklch(.445 .048 240.000);
+    --onv-color-cool-gray-700: oklch(.370 .045 240.000);
+    --onv-color-cool-gray-800: oklch(.275 .043 240.000);
+    --onv-color-cool-gray-900: oklch(.205 .045 240.000);
+    --onv-color-cool-gray-950: oklch(.130 .045 240.000);
+
+    /* Warm Gray Colors - Cozy neutral with brown/beige undertone */
+    --onv-color-warm-gray-50: oklch(.984 .005 60.000);
+    --onv-color-warm-gray-100: oklch(.968 .008 60.000);
+    --onv-color-warm-gray-200: oklch(.928 .015 60.000);
+    --onv-color-warm-gray-300: oklch(.865 .025 60.000);
+    --onv-color-warm-gray-400: oklch(.705 .035 60.000);
+    --onv-color-warm-gray-500: oklch(.555 .040 60.000);
+    --onv-color-warm-gray-600: oklch(.445 .038 60.000);
+    --onv-color-warm-gray-700: oklch(.370 .035 60.000);
+    --onv-color-warm-gray-800: oklch(.275 .033 60.000);
+    --onv-color-warm-gray-900: oklch(.205 .035 60.000);
+    --onv-color-warm-gray-950: oklch(.130 .035 60.000);
+}
+
+:root {
+    /* Primary Theme Colors - Menggunakan Master Palette */
+    --onv-thema: var(--onv-color-purple-700);      
+    --onv-primary: var(--onv-color-blue-700);       
+    --onv-secondary: var(--onv-color-slate-600);     
+    --onv-success: var(--onv-color-green-700);       
+    --onv-warning: var(--onv-color-yellow-400);      
+    --onv-info: var(--onv-color-cyan-400);           
+    --onv-danger: var(--onv-color-red-700);         
+    --onv-dark: var(--onv-color-gray-800);           
+    --onv-light: var(--onv-color-neutral-50);       
+
+    --onv-soft-primary: color-mix(in srgb, var(--onv-color-blue-700) 25%, transparent);
+    --onv-soft-secondary: color-mix(in srgb, var(--onv-color-slate-600) 25%, transparent);
+    --onv-soft-success: color-mix(in srgb, var(--onv-color-green-700) 25%, transparent);
+    --onv-soft-warning: color-mix(in srgb, var(--onv-color-yellow-400) 25%, transparent);
+    --onv-soft-info: color-mix(in srgb, var(--onv-color-cyan-400) 25%, transparent);
+    --onv-soft-danger: color-mix(in srgb, var(--onv-color-red-700) 25%, transparent);
+    --onv-soft-dark: color-mix(in srgb, var(--onv-color-gray-800) 25%, transparent);
+}
+
+/* Dark Mode Variables - Menggunakan Master Palette */
+:root {
+    --onv-dark-bg: var(--onv-color-neutral-950);
+    --onv-dark-bg-secondary: var(--onv-color-neutral-900);
+    --onv-dark-bg-tertiary: var(--onv-color-neutral-800);
+    
+    --onv-dark-text: var(--onv-color-neutral-50);
+    --onv-dark-text-secondary: var(--onv-color-neutral-400);
+    
+    --onv-dark-border: var(--onv-color-neutral-700);
+    --onv-dark-border-secondary: var(--onv-color-neutral-600);
+    
+    /* Dark Mode Soft Colors */
+    --onv-dark-soft-primary: color-mix(in srgb, var(--onv-primary) 10%, transparent);
+    --onv-dark-soft-secondary: color-mix(in srgb, var(--onv-secondary) 10%, transparent);
+    --onv-dark-soft-success: color-mix(in srgb, var(--onv-success) 10%, transparent);
+    --onv-dark-soft-warning: color-mix(in srgb, var(--onv-warning) 10%, transparent);
+    --onv-dark-soft-info: color-mix(in srgb, var(--onv-info) 10%, transparent);
+    --onv-dark-soft-danger: color-mix(in srgb, var(--onv-danger) 10%, transparent);
+    --onv-dark-soft-dark: color-mix(in srgb, var(--onv-dark) 10%, transparent);
+    --onv-dark-soft-light: color-mix(in srgb, var(--onv-light) 10%, transparent);
+}
+
+/* Variabel untuk set_distance menggunakan CSS custom property */
+:root {
+    --set-distance: 1rem;
+}
+
+:root {
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 2px 15px rgba(0, 0, 0, 0.1);
+}

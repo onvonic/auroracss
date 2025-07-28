@@ -1,0 +1,80 @@
+.onv-container,
+.onv-container-sm,
+.onv-container-md,
+.onv-container-lg,
+.onv-container-xl,
+.onv-container-xxl {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Breakpoint and onv-container specific styles */
+@media (min-width: 576px) {
+
+    .onv-container,
+    .onv-container-sm {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .onv-container,
+    .onv-container-sm,
+    .onv-container-md {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .onv-container,
+    .onv-container-sm,
+    .onv-container-md,
+    .onv-container-lg {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .onv-container,
+    .onv-container-sm,
+    .onv-container-md,
+    .onv-container-lg,
+    .onv-container-xl {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .onv-container,
+    .onv-container-sm,
+    .onv-container-md,
+    .onv-container-lg,
+    .onv-container-xl,
+    .onv-container-xxl {
+        max-width: 1320px;
+    }
+}
+
+/* .onv-container-fluid is always 100%, so no need for specific rules */
+
+/* Adjustment for margin */
+@media (max-width: 1400px) {
+
+    .onv-container,
+    .onv-container-sm,
+    .onv-container-md,
+    .onv-container-lg,
+    .onv-container-xl,
+    .onv-container-xxl {
+        width: calc(100% - 1.5rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
