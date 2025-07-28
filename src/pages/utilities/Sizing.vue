@@ -303,7 +303,7 @@
                             <span style="font-size: 12px; color: #6b7280;">wh-8</span>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
-                            <div class="onv-wh-10" style="background: #ef4444; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px;">♦</div>
+                            <div class="onv-wh-10" style="background: #ef4444; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 14px;">♦</div>
                             <span style="font-size: 12px; color: #6b7280;">wh-10</span>
                         </div>
                         <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">

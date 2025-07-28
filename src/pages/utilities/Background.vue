@@ -372,7 +372,7 @@
                 <!-- Example 1: Hero Section -->
                 <div class="onv-bg-gradient-primary" style="padding: 40px; border-radius: 12px; color: white; text-align: center;">
                     <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 16px;">Hero Section</h3>
-                    <p style="font-size: 16px; opacity: 0.9; margin-bottom: 24px;">Background gradient untuk hero section yang menarik perhatian</p>
+                    <p style="font-size: 14px; opacity: 0.9; margin-bottom: 24px;">Background gradient untuk hero section yang menarik perhatian</p>
                     <button class="onv-bg-light" style="padding: 12px 24px; border-radius: 6px; border: none; color: #374151; font-weight: 600; cursor: pointer;">Get Started</button>
                 </div>
 
