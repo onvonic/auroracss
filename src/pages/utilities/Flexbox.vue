@@ -2,37 +2,55 @@
     <div>
         <h1 class="onv-page-title">Flexbox & Grid</h1>
         <p class="onv-page-subtitle">Utilitas flexbox dan grid untuk membuat layout yang responsif dan fleksibel dengan sistem 12-kolom dan berbagai opsi alignment yang lengkap.</p>
-
         <!-- Responsive Grid System -->
         <section class="onv-doc-section">
             <h2 class="onv-section-title">Responsive Grid System</h2>
-            <p class="onv-section-description">Sistem grid 12-kolom yang responsif dengan breakpoint untuk desktop, tablet, dan mobile.</p>
+            <p class="onv-section-description">Sistem grid 12-kolom yang responsif dengan breakpoint untuk desktop, tablet, dan mobile. Kolom nempel tanpa gap bawaan untuk flexibilitas maksimal.</p>
 
             <div style="display: grid; gap: 24px;">
                 <!-- Basic Grid -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Basic Grid Columns</h4>
                     <div class="onv-row" style="margin-bottom: 8px;">
-                        <div class="onv-col-12" style="background: #dbeafe; padding: 12px; border-radius: 4px; border: 1px solid #3b82f6; color: #1e40af; text-align: center; font-size: 14px; font-weight: 600;">col-12</div>
+                        <div class="onv-col-12" style="background: #dbeafe; border-radius: 4px; border: 1px solid #3b82f6; color: #1e40af; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-12</div>
+                        </div>
                     </div>
                     <div class="onv-row" style="margin-bottom: 8px;">
-                        <div class="onv-col-6" style="background: #dcfce7; padding: 12px; border-radius: 4px; border: 1px solid #10b981; color: #166534; text-align: center; font-size: 14px; font-weight: 600;">col-6</div>
-                        <div class="onv-col-6" style="background: #dcfce7; padding: 12px; border-radius: 4px; border: 1px solid #10b981; color: #166534; text-align: center; font-size: 14px; font-weight: 600;">col-6</div>
+                        <div class="onv-col-6" style="background: #dcfce7; border-radius: 4px; border: 1px solid #10b981; color: #166534; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-6</div>
+                        </div>
+                        <div class="onv-col-6" style="background: #dcfce7; border-radius: 4px; border: 1px solid #10b981; color: #166534; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-6</div>
+                        </div>
                     </div>
                     <div class="onv-row" style="margin-bottom: 8px;">
-                        <div class="onv-col-4" style="background: #fef3c7; padding: 12px; border-radius: 4px; border: 1px solid #f59e0b; color: #92400e; text-align: center; font-size: 14px; font-weight: 600;">col-4</div>
-                        <div class="onv-col-4" style="background: #fef3c7; padding: 12px; border-radius: 4px; border: 1px solid #f59e0b; color: #92400e; text-align: center; font-size: 14px; font-weight: 600;">col-4</div>
-                        <div class="onv-col-4" style="background: #fef3c7; padding: 12px; border-radius: 4px; border: 1px solid #f59e0b; color: #92400e; text-align: center; font-size: 14px; font-weight: 600;">col-4</div>
+                        <div class="onv-col-4" style="background: #fef3c7; border-radius: 4px; border: 1px solid #f59e0b; color: #92400e; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-4</div>
+                        </div>
+                        <div class="onv-col-4" style="background: #fef3c7; border-radius: 4px; border: 1px solid #f59e0b; color: #92400e; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-4</div>
+                        </div>
+                        <div class="onv-col-4" style="background: #fef3c7; border-radius: 4px; border: 1px solid #f59e0b; color: #92400e; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-4</div>
+                        </div>
                     </div>
                     <div class="onv-row">
-                        <div class="onv-col-3" style="background: #fecaca; padding: 12px; border-radius: 4px; border: 1px solid #ef4444; color: #991b1b; text-align: center; font-size: 14px; font-weight: 600;">col-3</div>
-                        <div class="onv-col-3" style="background: #fecaca; padding: 12px; border-radius: 4px; border: 1px solid #ef4444; color: #991b1b; text-align: center; font-size: 14px; font-weight: 600;">col-3</div>
-                        <div class="onv-col-3" style="background: #fecaca; padding: 12px; border-radius: 4px; border: 1px solid #ef4444; color: #991b1b; text-align: center; font-size: 14px; font-weight: 600;">col-3</div>
-                        <div class="onv-col-3" style="background: #fecaca; padding: 12px; border-radius: 4px; border: 1px solid #ef4444; color: #991b1b; text-align: center; font-size: 14px; font-weight: 600;">col-3</div>
+                        <div class="onv-col-3" style="background: #fecaca; border-radius: 4px; border: 1px solid #ef4444; color: #991b1b; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-3</div>
+                        </div>
+                        <div class="onv-col-3" style="background: #fecaca; border-radius: 4px; border: 1px solid #ef4444; color: #991b1b; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-3</div>
+                        </div>
+                        <div class="onv-col-3" style="background: #fecaca; border-radius: 4px; border: 1px solid #ef4444; color: #991b1b; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-3</div>
+                        </div>
+                        <div class="onv-col-3" style="background: #fecaca; border-radius: 4px; border: 1px solid #ef4444; color: #991b1b; text-align: center; font-size: 14px; font-weight: 600;">
+                            <div style="padding: 12px;">col-3</div>
+                        </div>
                     </div>
-                    <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">Class: <code>.onv-col-{1-12}</code></p>
+                    <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">Class: <code>.onv-col-{1-12}</code> - Kolom nempel tanpa gap bawaan</p>
                 </div>
-
                 <!-- Responsive Breakpoints -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Responsive Breakpoints</h4>
@@ -54,28 +72,50 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Grid Philosophy -->
+                <div>
+                    <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Grid Philosophy</h4>
+                    <div style="background: #fef3c7; padding: 16px; border-radius: 8px; border: 1px solid #f59e0b;">
+                        <h5 style="font-weight: 600; color: #92400e; margin-bottom: 8px;">ONV Grid System - Utility-First Approach</h5>
+                        <ul style="margin: 0; padding-left: 20px; color: #92400e; line-height: 1.6;">
+                            <li><strong>Tanpa built-in spacing:</strong> Kolom nempel untuk kontrol penuh</li>
+                            <li><strong>Manual spacing:</strong> Gunakan utility classes untuk spacing sesuai kebutuhan</li>
+                            <li><strong>Flexible:</strong> Mirip Tailwind CSS, bukan Bootstrap dengan gutter</li>
+                            <li><strong>Clean structure:</strong> Separation of concerns - grid untuk layout, utilities untuk styling</li>
+                        </ul>
+                    </div>
+                </div>
                 <!-- Responsive Example -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Responsive Grid Example</h4>
                     <div class="onv-row">
-                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; padding: 12px; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
-                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; padding: 12px; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
-                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; padding: 12px; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
-                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; padding: 12px; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
-                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; padding: 12px; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
-                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; padding: 12px; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
+                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">
+                            <div style="padding: 12px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
+                        </div>
+                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">
+                            <div style="padding: 12px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
+                        </div>
+                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">
+                            <div style="padding: 12px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
+                        </div>
+                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">
+                            <div style="padding: 12px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
+                        </div>
+                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">
+                            <div style="padding: 12px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
+                        </div>
+                        <div class="onv-col-2 onv-col-md-4 onv-col-sm-6" style="background: #e0e7ff; border-radius: 4px; border: 1px solid #6366f1; color: #3730a3; text-align: center; font-size: 14px; font-weight: 600; margin-bottom: 8px;">
+                            <div style="padding: 12px;">Desktop: 6 cols<br>Tablet: 3 cols<br>Mobile: 2 cols</div>
+                        </div>
                     </div>
-                    <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">Classes: <code>.onv-col-2 .onv-col-md-4 .onv-col-sm-6</code></p>
+                    <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">Classes: <code>.onv-col-2 .onv-col-md-4 .onv-col-sm-6</code> - Content padding ditambah manual</p>
                 </div>
             </div>
         </section>
-
         <!-- Flexbox Utilities -->
         <section class="onv-doc-section">
             <h2 class="onv-section-title">Flexbox Utilities</h2>
             <p class="onv-section-description">Utilitas flexbox untuk mengatur layout, alignment, dan distribusi elemen secara fleksibel.</p>
-
             <div style="display: grid; gap: 24px;">
                 <!-- Flex Display -->
                 <div>
@@ -91,7 +131,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Flex Direction -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Flex Direction</h4>
@@ -114,7 +153,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Justify Content -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Justify Content (Horizontal Alignment)</h4>
@@ -145,7 +183,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Align Items -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Align Items (Vertical Alignment)</h4>
@@ -176,7 +213,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Flex Properties -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Flex Properties (Proportional Sizing)</h4>
@@ -196,7 +232,6 @@
                     </div>
                     <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">Available: <code>.onv-flex-{1-12}</code>, <code>.onv-flex-auto</code>, <code>.onv-flex-none</code></p>
                 </div>
-
                 <!-- Responsive Flexbox -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Responsive Flexbox</h4>
@@ -212,12 +247,10 @@
                 </div>
             </div>
         </section>
-
         <!-- Usage Examples -->
         <section class="onv-doc-section">
             <h2 class="onv-section-title">Usage Examples</h2>
             <p class="onv-section-description">Contoh penggunaan flexbox dan grid dalam berbagai layout aplikasi.</p>
-
             <div style="display: grid; gap: 24px;">
                 <!-- Example 1: Navigation Layout -->
                 <div>
@@ -236,7 +269,6 @@
                     </div>
                     <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">Classes used: <code>.onv-flex</code>, <code>.onv-items-center</code>, <code>.onv-justify-between</code></p>
                 </div>
-
                 <!-- Example 2: Card Layout with Flexbox -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Card Layout with Flexbox</h4>
@@ -250,7 +282,6 @@
                     </div>
                     <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">Classes used: <code>.onv-flex</code>, <code>.onv-flex-col</code>, <code>.onv-justify-between</code></p>
                 </div>
-
                 <!-- Example 3: Responsive Grid -->
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Responsive Layout Example</h4>
@@ -259,16 +290,21 @@
                             <div style="background: #dbeafe; border: 2px solid #3b82f6; padding: 16px; border-radius: 8px; color: #1e40af; text-align: center;">
                                 <h5 style="font-weight: 600; margin-bottom: 8px;">Main Content</h5>
                                 <p style="margin: 0; font-size: 14px;">Desktop: 66.67% | Tablet: 100% | Mobile: 100%</p>
+                                <p style="margin: 4px 0 0 0; font-size: 12px; opacity: 0.8;">Padding ditambah manual di content</p>
                             </div>
                         </div>
                         <div class="onv-col-4 onv-col-md-12 onv-col-sm-12" style="margin-bottom: 16px;">
                             <div style="background: #dcfce7; border: 2px solid #10b981; padding: 16px; border-radius: 8px; color: #166534; text-align: center;">
                                 <h5 style="font-weight: 600; margin-bottom: 8px;">Sidebar</h5>
                                 <p style="margin: 0; font-size: 14px;">Desktop: 33.33% | Tablet: 100% | Mobile: 100%</p>
+                                <p style="margin: 4px 0 0 0; font-size: 12px; opacity: 0.8;">Content styling terpisah</p>
                             </div>
                         </div>
                     </div>
-                    <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">Classes used: <code>.onv-col-8 .onv-col-md-12 .onv-col-sm-12</code> and <code>.onv-col-4 .onv-col-md-12 .onv-col-sm-12</code></p>
+                    <p style="font-size: 13px; color: #6b7280; margin-top: 8px;">
+                        Grid classes: <code>.onv-col-8/.onv-col-4</code> untuk layout<br>
+                        Styling: Manual padding dan background di content wrapper
+                    </p>
                 </div>
 
                 <!-- Example 4: Flexbox Navigation with Order -->
@@ -330,7 +366,6 @@
         <section class="onv-doc-section">
             <h2 class="onv-section-title">Usage Guidelines</h2>
             <p class="onv-section-description">Panduan penggunaan flexbox dan grid untuk hasil terbaik.</p>
-
             <div style="display: grid; gap: 20px;">
                 <div>
                     <h4 style="margin-bottom: 12px; color: #374151; font-weight: 600;">Grid System vs Flexbox - Kapan Menggunakan?</h4>
@@ -341,7 +376,7 @@
                                 <li>Layout halaman utama</li>
                                 <li>Responsive design dengan breakpoint</li>
                                 <li>Grid produk/kartu yang konsisten</li>
-                                <li>Layout 12-kolom tradisional</li>
+                                <li>Layout 12-kolom modern (tanpa gutter)</li>
                             </ul>
                         </div>
                         <div style="background: #dcfce7; padding: 16px; border-radius: 8px; border: 1px solid #10b981;">
@@ -362,9 +397,10 @@
                     <ul style="margin: 0; padding-left: 24px; color: #4b5563; line-height: 1.8;">
                         <li><strong>Mobile-first:</strong> Mulai dengan <code>.onv-col-sm-*</code>, lalu scale up ke tablet dan desktop</li>
                         <li><strong>Kombinasi:</strong> Gunakan grid system untuk layout utama, flexbox untuk komponen kecil</li>
-                        <li><strong>Gap spacing:</strong> Gunakan <code>.onv-gap-*</code> untuk spacing yang konsisten dalam flexbox</li>
+                        <li><strong>Manual spacing:</strong> Tambah padding/margin manual di content atau gunakan utility classes</li>
                         <li><strong>Responsive testing:</strong> Selalu test di berbagai ukuran layar</li>
                         <li><strong>Semantic HTML:</strong> Tetap gunakan elemen HTML yang semantik dengan utility classes</li>
+                        <li><strong>Clean separation:</strong> Grid untuk structure, utilities untuk styling</li>
                     </ul>
                 </div>
 
@@ -382,7 +418,7 @@
                                 <strong>Responsive grid:</strong> <code>.onv-col-4 .onv-col-md-6 .onv-col-sm-12</code>
                             </div>
                             <div>
-                                <strong>Card footer:</strong> <code>.onv-flex .onv-flex-col .onv-justify-between</code>
+                                <strong>Card with spacing:</strong> <code>&lt;div class="onv-col-4"&gt;&lt;div style="padding: 16px;"&gt;Content&lt;/div&gt;&lt;/div&gt;</code>
                             </div>
                             <div>
                                 <strong>Proportional layout:</strong> <code>.onv-flex-2 .onv-flex-1</code> (2:1 ratio)
